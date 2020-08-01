@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>404</h1>
-    <router-link :to="'layout01'">Layout01</router-link>
+    <h1>404 아님</h1>
   </div>
 </template>
 
