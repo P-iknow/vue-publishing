@@ -6,6 +6,8 @@ import layout02 from '../pages/Layout02'
 import layout03 from '../pages/Layout03'
 import layout04 from '../pages/Layout04'
 import layout05 from '../pages/Layout05'
+import layout06 from '../pages/Layout06'
+
 
 import { routePropResolver } from './util'
 import { DOMAIN_TITLE } from '../.env'
@@ -40,11 +42,18 @@ export const routes = [
     name: 'layout04',
     component: layout04,
     meta: { title: `${DOMAIN_TITLE} | layout04` }
-  },  {
+  },
+  {
     path: '/layout05',
     name: 'layout05',
     component: layout05,
     meta: { title: `${DOMAIN_TITLE} | layout05` }
+  },
+  {
+    path: '/layout06',
+    name: 'layout06',
+    component: layout06,
+    meta: { title: `${DOMAIN_TITLE} | layout06` }
   },
   {
     path: '*',

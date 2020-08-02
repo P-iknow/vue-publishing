@@ -1,0 +1,40 @@
+.wrap {
+	display: flow-root;
+	min-height: 100vh;
+	text-transform: uppercase;
+}
+
+.main {
+	width: 100%;
+	margin: 50px auto;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	#header {
+		height: 140px;
+		line-height: 140px;
+		background: #ffe1e4;
+	}
+	#banner {
+		height: 450px;
+		line-height: 450px;
+		background: #fbd6e3;
+	}
+	#content {
+		height: 950px;
+		line-height: 950px;
+		background: #ead5ee;
+	}
+	#footer {
+		height: 220px;
+		line-height: 220px;
+		background: #d6ebfd;
+	}
+	.contaniner {
+		width: 1100px;
+		margin: 0 auto;
+		height: inherit;
+		background: rgba(0, 0, 0, 0.3);
+	}
+}
