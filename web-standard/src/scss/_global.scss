@@ -1,4 +1,4 @@
-html, body, #app {
+html, body, #app .wrapper {
   min-height: 100vh;
 }
 
@@ -9,7 +9,7 @@ body {
 }
 
 #app {
-  background-color: #efeeed;
+
   display: flex;
   flex-direction: column;
 }

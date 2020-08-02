@@ -1,6 +1,12 @@
 <template>
-  <div>
-    <h1>404 아님</h1>
+  <div class="wrap">
+    <div class="main">
+      <header>Header</header>
+      <nav>Nav</nav>
+      <aside>Side</aside>
+      <p>Content</p>
+      <footer>Footer</footer>
+    </div>
   </div>
 </template>
 
@@ -8,4 +14,6 @@
 export default {
   name: 'NotFound'
 }
+
 </script>
+<style lang="scss" src="./Layout01.scss" scoped></style>
