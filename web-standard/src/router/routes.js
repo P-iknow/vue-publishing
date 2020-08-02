@@ -7,6 +7,7 @@ import layout03 from '../pages/Layout03'
 import layout04 from '../pages/Layout04'
 import layout05 from '../pages/Layout05'
 import layout06 from '../pages/Layout06'
+import layout07 from '../pages/Layout07'
 
 
 import { routePropResolver } from './util'
@@ -54,6 +55,12 @@ export const routes = [
     name: 'layout06',
     component: layout06,
     meta: { title: `${DOMAIN_TITLE} | layout06` }
+  },
+  {
+    path: '/layout07',
+    name: 'layout07',
+    component: layout07,
+    meta: { title: `${DOMAIN_TITLE} | layout07` }
   },
   {
     path: '*',
