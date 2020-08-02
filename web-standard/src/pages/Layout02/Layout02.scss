@@ -2,6 +2,7 @@
   display: flow-root;
   background: #c8e6c9;
   min-height: 100vh;
+  text-transform: uppercase;
 }
 
 .main {
@@ -44,7 +45,7 @@
   }
 
   & > #footer {
-    float: left;
+    clear: both;
     width: 1000px;
     height: 80px;
     line-height: 80px;
